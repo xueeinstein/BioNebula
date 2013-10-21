@@ -1,0 +1,52 @@
+#background {
+    background: url('../img/foreground.png') 5% 5%, url('../img/midground.png') 50% 50%, url('../img/background.png') 90% 110%;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: left 300s linear;
+    -moz-transition: left 300s linear;
+    -o-transition: left 300s linear;
+    -ms-transition: left 300s linear;
+    transition: left 300s linear;
+}
+
+#experiment:target #background {
+    left: -5000px;
+}
+
+#experiment:hover #background {
+    left: -9999px;
+}
+#navigation {
+    top: 150px;
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+    opacity: 0.85;
+    color: #ccc;
+    padding: 1em 3em 5em;
+    position: relative;
+    margin:0 auto;
+    border: 2px solid #666;
+}
+#navigation h1 {
+	font:2.5em Arial, Helvetica, sans-serif;
+	color:white;
+}
+#navigation ul {
+    list-style: none;
+}
+#navigation ul li a{
+	text-decoration: none;
+	font:2em Arial, Helvetica, sans-serif;
+	color:#FFFF00;
+}
+#logo {
+	height: 100px;
+	width: 220px;
+	position: fixed;
+	bottom: 5px;
+	right: 0px;
+}

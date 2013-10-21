@@ -1,0 +1,21 @@
+#my_modal_wrapper {
+	background-color: white;
+	opacity:0.8;
+}
+#my_modal {
+	background-color: white;
+	opacity:1;
+	width: 80%;
+}
+ .popup_background {
+    z-index: 2000; /* any number */
+  }
+  .popup_wrapper {
+    z-index: 2001; /* any number + 1 */
+  }
+  /* Add inline-block support for IE7 */
+  .popup_align,
+  .popup_content {
+    *display: inline;
+    *zoom: 1;
+  }
